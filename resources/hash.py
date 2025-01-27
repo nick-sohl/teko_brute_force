@@ -16,6 +16,6 @@ def calculate_md5(text):
 alphabet_lowercase = ['a']
 
 # Beispielaufruf:
-text = ("cTlZyF")
+text = ("abcdef")
 md5_hash = calculate_md5(text)
 print(md5_hash)
