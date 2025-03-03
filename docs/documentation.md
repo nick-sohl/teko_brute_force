@@ -31,7 +31,7 @@ Die Keywords enthalten keine Umlaute. Beispiel: „aavc“ oder „FdUzg“
 
 Der Auftrag der Projektarbeit ist es ein Tool in der Programmiersprache Python zu entwickeln, dass mithilfe der Brute-Fore-Methode die verschlüsselten Keywords von einem MD5-Hash in seinen Ursprungszustand zurück zu wandeln.
 
-[Projektarbeit_Brute-Force.pdf](Dokumentation%20zur%20Projektarbeit%20Brute%20Force%20MD5%20Ha%201a4d2c236b2c8047af6dee2b8dea8f46/Projektarbeit_Brute-Force.pdf)
+[Projektarbeit_Brute-Force.pdf](../resources/Projektarbeit_Brute-Force.pdf)
 
 ## Vorgaben
 
@@ -51,7 +51,7 @@ Der Nutzer soll im Programm folgende Eingaben machen können:
 
 Für die Berechnung eines MD5-Hashes kann das `hash.py` file verwendet werden.
 
-[hash.py](Dokumentation%20zur%20Projektarbeit%20Brute%20Force%20MD5%20Ha%201a4d2c236b2c8047af6dee2b8dea8f46/hash.py)
+[hash.py](../resources/hash.py)
 
 <aside>
 💡
