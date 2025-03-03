@@ -1,7 +1,7 @@
 # Brute Force MD5 Hash Reversing
 
 ![Projektstatus](https://img.shields.io/badge/status-finished-green)
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![Python Version](https://img.shields.io/badge/python-3.1.3-blue)
 
 ## Projektübersicht
 
