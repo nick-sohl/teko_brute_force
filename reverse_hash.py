@@ -41,7 +41,7 @@ def calculate_md5(keyword):
 
 
 # Reverse md5 hash
-def reverse_md5_hash(hash, len_of_keyword, uppercase):
+def reverse_md5_hash(md5_hash, len_of_keyword, uppercase):
     combinations = itertools.product(ascii_all_letters, repeat=len_of_keyword) if uppercase else itertools.product(
         ascii_lowercase_letters, repeat=len_of_keyword)
     count = 0
@@ -52,7 +52,7 @@ def reverse_md5_hash(hash, len_of_keyword, uppercase):
             print("Too many combinations. Please try again with a different keyword.")
             sys.exit()
         keyword = ''.join(combination)
-        if calculate_md5(keyword) == hash:
+        if calculate_md5(keyword) == md5_hash:
             print(f"Your Keyword is: {keyword}")
             print(f"Tries to get: {count}")
             break
